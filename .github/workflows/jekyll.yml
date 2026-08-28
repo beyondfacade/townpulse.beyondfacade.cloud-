@@ -31,7 +31,9 @@ jobs:
         with:
           enablement: true
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        # 커스텀 도메인(townpulse.beyondfacade.cloud)은 루트에서 서빙되므로 baseurl은 항상 빈 값.
+        # base_path 자동 감지에 의존하지 않아 CSS/JS 경로가 /assets/... 로 고정된다.
+        run: bundle exec jekyll build --baseurl ""
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
