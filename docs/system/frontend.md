@@ -1,11 +1,14 @@
 ---
-title: 9. 프론트엔드 & 사용자 워크플로우
 layout: default
-nav_order: 9
+title: 3) 프론트엔드 & 사용자 워크플로우
+permalink: /docs/system/frontend.html
+parent: 3. 시스템 구조
+nav_order: 3
 ---
 
-# 프론트엔드 & 사용자 워크플로우
-{: .no_toc }
+# 3) 프론트엔드 & 사용자 워크플로우
+
+> 💡 **쉽게 말하면**: 공무원이 지도에서 마을 하나를 클릭하면, 옆에 그 마을의 생존 점수와 취약 지표가 뜨고, AI에게 물어보면 처방과 예산을 설명해 줍니다. 마지막엔 대화 내용을 그대로 담은 A4 보고서를 PDF로 뽑습니다.
 
 ## 9-1. 기술 스택 & 화면
 
@@ -20,6 +23,11 @@ Next.js 14 (App Router) · TypeScript · Tailwind(`darkMode: class`) · next-the
 | `/map/detail` | 마을 상세 | 선택 마을 전체 지표 |
 | `/mypage` | 마이페이지 | AI 대화 요약 보고서 이력 + 모달 뷰어 + PDF |
 
+<figure class="shot">
+  <img src="{{ '/assets/img/map-village-select.gif' | relative_url }}" alt="마을 선택 데모 — 지도 클릭 후 TVI·QC·AI 컨설팅이 이어지는 흐름">
+  <figcaption>핵심 워크스페이스 `/map` — 마을 선택부터 AI 소멸진단 컨설팅까지</figcaption>
+</figure>
+
 ## 9-2. 사용자 여정
 
 ```
@@ -29,6 +37,25 @@ Next.js 14 (App Router) · TypeScript · Tailwind(`darkMode: class`) · next-the
   ├─ 보고서 저장 → 대화 이력 포함 저장
   └─ 마이페이지 → 과거 보고서·채팅 복원 → PDF 출력
 ```
+
+<div class="shot-grid">
+  <figure class="shot">
+    <img src="{{ '/assets/img/map-overview.jpg' | relative_url }}" alt="소멸위험 지도 — 충북 153개 읍·면·동 단계구분도">
+    <figcaption>소멸위험 지도 — TVI 등급별 색상 음영(153개 폴리곤)</figcaption>
+  </figure>
+  <figure class="shot">
+    <img src="{{ '/assets/img/map-village-selected.jpg' | relative_url }}" alt="마을 선택 후 사이드바 — TVI 요약과 QC 진단 활성화">
+    <figcaption>마을 선택 후 — TVI 요약·QC 진단·AI 컨설팅 사이드바</figcaption>
+  </figure>
+  <figure class="shot">
+    <img src="{{ '/assets/img/mypage-reports.jpg' | relative_url }}" alt="마이페이지 — AI 대화 요약 보고서 이력과 PDF 출력">
+    <figcaption>마이페이지 — AI 대화 요약 보고서 이력·A4 PDF 출력</figcaption>
+  </figure>
+  <figure class="shot">
+    <img src="{{ '/assets/img/home-features.jpg' | relative_url }}" alt="홈 기능 소개 섹션">
+    <figcaption>홈 — 핵심 기능 소개 섹션</figcaption>
+  </figure>
+</div>
 
 **마을 선택 후 사이드바 로딩 순서**
 1. `GET /dashboard/map/villages/{code}` → 팝업 요약(TVI 점수·등급)

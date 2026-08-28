@@ -1,11 +1,14 @@
 ---
-title: 5. ML 5종 추론 모델
 layout: default
-nav_order: 5
+title: 3) ML 5종 추론 모델
+permalink: /docs/data-method/ml.html
+parent: 2. 데이터와 방법론
+nav_order: 3
 ---
 
-# ML 5종 추론 모델
-{: .no_toc }
+# 3) ML 5종 추론 모델
+
+> 💡 **쉽게 말하면**: 지금 점수(TVI)가 현재의 건강검진이라면, 여기서는 "이 마을이 앞으로 어떻게 될까"를 예측합니다. 소멸 위험을 분류하고(XGBoost), 인구가 몇 년 뒤 어디까지 줄지 그리며(Prophet), 비슷한 처지의 마을끼리 묶어(K-Means) 무엇이 통했는지 벤치마킹합니다.
 
 > `backfill_tvi_feature_snapshot.py`로 36개월 실데이터에서 **5,508행**(153마을 × 36개월, 피처 22개) 훈련 샘플 적재 후 훈련 완료.
 

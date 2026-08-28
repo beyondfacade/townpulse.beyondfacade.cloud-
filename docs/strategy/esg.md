@@ -1,11 +1,14 @@
 ---
-title: 13. ESG 혁신 가치
 layout: default
-nav_order: 13
+title: 3) ESG 혁신 가치
+permalink: /docs/strategy/esg.html
+parent: 4. 사업화 전략
+nav_order: 3
 ---
 
-# ESG 혁신 가치
-{: .no_toc }
+# 3) ESG 혁신 가치
+
+> 💡 **쉽게 말하면**: TownPulse가 돈을 버는 것 말고 사회에 무엇을 남기는지를 정리했습니다. 취약계층의 접근성을 숫자로 드러내고, 예산 낭비를 줄이고, 처방의 근거를 투명하게 공개합니다.
 
 | ESG 항목 | TownPulse의 기여 |
 |---|---|

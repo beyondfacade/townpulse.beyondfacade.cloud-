@@ -1,17 +1,14 @@
 ---
-title: 1. 문제 인식 — 소멸의 악순환
 layout: default
+title: 1) 문제 인식 — 소멸의 악순환
+permalink: /docs/problem-solution/problem.html
+parent: 1. 문제와 솔루션
 nav_order: 1
 ---
 
-# 문제 인식 — 소멸의 악순환
-{: .no_toc }
+# 1) 문제 인식 — 소멸의 악순환
 
-<div class="eli5" markdown="1">
-<span class="eli5-label">IN PLAIN ENGLISH</span>
-
-Six of Chungbuk's 11 counties are officially designated "population-declining" areas. In these rural towns three problems move together as one chain: empty houses pile up, people leave, and bus routes get cut — each one speeding up the next. Real cases (Danyang's schools with zero new students, Hwacheon losing 551 residents despite record housing subsidies) show that just *measuring* the decline is not enough. And because "vacant house" counts swing wildly by definition (10.4% vs. 2,401 houses), TownPulse cross-checks administrative, energy, statistics, and transaction data to find the real vacancy rate.
-</div>
+> 💡 **쉽게 말하면**: 빈집이 늘면 사람이 떠나고, 사람이 떠나면 버스가 끊기고, 버스가 끊기면 남은 사람마저 떠납니다. 세 문제가 따로 있는 게 아니라 하나의 사슬로 묶여 서로를 밀어붙입니다. 현황만 재는 대응으로는 이 사슬을 끊지 못합니다.
 
 충청북도는 11개 시군 중 **6곳(제천·보은·옥천·영동·괴산·단양)이 행정안전부 인구감소지역**으로 지정될 만큼 소멸 위기가 심각합니다. 농촌 지역을 중심으로 세 문제가 **하나의 인과관계 사슬**로 동시에 진행됩니다.
 

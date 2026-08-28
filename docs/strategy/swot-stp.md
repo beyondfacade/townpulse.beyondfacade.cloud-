@@ -1,11 +1,14 @@
 ---
-title: 11. 전략 분석 — SWOT · STP
 layout: default
-nav_order: 11
+title: 1) 전략 분석 — SWOT · STP
+permalink: /docs/strategy/swot-stp.html
+parent: 4. 사업화 전략
+nav_order: 1
 ---
 
-# 전략 분석 — SWOT · STP
-{: .no_toc }
+# 1) 전략 분석 — SWOT · STP
+
+> 💡 **쉽게 말하면**: 우리의 강점과 약점, 시장의 기회와 위협을 정리하고(SWOT), 누구에게 무엇을 어떻게 팔지(STP)를 잡았습니다. 핵심은 "빈집·인구·교통·인프라를 하나로 통합해 AI 처방까지 내는" 자리에 경쟁자가 아직 없다는 점입니다.
 
 ## 11-1. SWOT
 

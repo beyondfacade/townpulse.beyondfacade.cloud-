@@ -1,17 +1,14 @@
 ---
-title: 2. 솔루션 개요와 차별성
 layout: default
+title: 2) 솔루션 개요와 차별성
+permalink: /docs/problem-solution/solution.html
+parent: 1. 문제와 솔루션
 nav_order: 2
 ---
 
-# 솔루션 개요와 차별성
-{: .no_toc }
+# 2) 솔루션 개요와 차별성
 
-<div class="eli5" markdown="1">
-<span class="eli5-label">IN PLAIN ENGLISH</span>
-
-TownPulse combines 19 public datasets into one engine that scores each town's survival (TVI v2.1) across population, vacancy, transport, and infrastructure, then has a locally-hosted sovereign AI write budget-backed prescriptions — no sensitive data ever leaves the server. The nearest competitor, "MyVillage AI," is a chatbot for would-be movers covering one city (Jecheon); TownPulse is a decision dashboard for officials covering all 153 towns, with ML forecasts and budget simulation. They complement each other: MyVillage AI tells residents *where to go*, TownPulse tells governments *which town to save first*.
-</div>
+> 💡 **쉽게 말하면**: 흩어진 공공데이터 19종을 한곳에 모아 마을마다 "생존 점수"를 매기고, 서버 안에서만 도는 AI가 예산까지 얹은 처방을 내놓습니다. 비슷해 보이는 내마을AI는 귀촌 희망자에게 정보를 안내하는 챗봇이고, TownPulse는 공무원이 어느 마을부터 살릴지 결정하도록 돕는 대시보드입니다. 겨루는 게 아니라 정책의 앞뒤 단계를 나눠 맡습니다.
 
 ## 2-1. 솔루션 한 줄
 
@@ -23,6 +20,11 @@ TownPulse combines 19 public datasets into one engine that scores each town's su
 - **ML 5종 모델** — 153마을 × 36개월 = 5,508행 실데이터 훈련 완료
 - **실정책 단가 기반 예산 시뮬레이션** — 농식품부·행안부·국토부 공식 사업 단가 9건, 재정자립도 기반 국비/지방비 자동 계산
 - 대시보드·A4 PDF 리포트로 행정 실무 즉시 활용
+
+<figure class="shot">
+  <img src="{{ '/assets/img/home-dashboard.jpg' | relative_url }}" alt="실시간 마을생존 대시보드 — 전체 마을·소멸위험·주의 등급 요약">
+  <figcaption>실시간 마을생존 대시보드 — 153개 마을을 위험 등급으로 요약</figcaption>
+</figure>
 
 ## 2-2. 내마을AI와의 차별성 (심사 예상 질문 대응)
 

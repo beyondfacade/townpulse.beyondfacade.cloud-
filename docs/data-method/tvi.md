@@ -1,11 +1,19 @@
 ---
-title: 4. TVI v2.1 산출 방법론
 layout: default
-nav_order: 4
+title: 2) TVI v2.1 산출 방법론
+permalink: /docs/data-method/tvi.html
+parent: 2. 데이터와 방법론
+nav_order: 2
 ---
 
-# TVI v2.1 산출 방법론
-{: .no_toc }
+# 2) TVI v2.1 산출 방법론
+
+> 💡 **쉽게 말하면**: 마을의 건강을 0~100점으로 재는 종합검진표입니다. 인구·빈집·교통·인프라 네 항목을 각각 점수 내어 합치되, 마을이 처한 상황(고령화가 심한지, 교통이 끊겼는지)에 따라 어느 항목을 더 무겁게 볼지 자동으로 바뀝니다. 점수가 낮을수록 소멸 위험이 큽니다.
+
+<figure class="shot">
+  <img src="{{ '/assets/img/map-tvi-radar.jpg' | relative_url }}" alt="마을 상세 화면 — TVI 점수, 판정 기준, 5대 지표 레이더 차트">
+  <figcaption>마을 상세 — TVI 52.7점, 5년 내 소멸 위험 47.3%, 5대 지표 레이더(현재 vs 3년 전)</figcaption>
+</figure>
 
 ## 4-1. 설계 근거 — 행안부 인구감소지수 6종 + TownPulse 특화
 

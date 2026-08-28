@@ -1,11 +1,12 @@
 ---
-title: 14. 핵심 기술 내역 요약
 layout: default
-nav_order: 14
+title: 1) 핵심 기술 내역 요약
+permalink: /docs/appendix/tech-summary.html
+parent: 5. 부록
+nav_order: 1
 ---
 
-# 핵심 기술 내역 요약
-{: .no_toc }
+# 1) 핵심 기술 내역 요약
 
 | 영역 | 핵심 기술 |
 |---|---|

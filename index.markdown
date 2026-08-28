@@ -21,17 +21,8 @@ nav_exclude: true
     </p>
     <div class="hero-actions">
       <a class="btn-cta primary" href="https://townpulse.site">지도에서 진단하기</a>
-      <a class="btn-cta ghost" href="{{ '/docs/01-problem.html' | relative_url }}">프로젝트 문서</a>
+      <a class="btn-cta ghost" href="{{ '/docs/overview.html' | relative_url }}">프로젝트 문서</a>
       <a class="btn-cta ghost" href="https://github.com/beyondfacade/townpulse.beyondfacade.cloud-">GitHub</a>
-    </div>
-
-    <div class="eli5">
-      <span class="eli5-label">IN PLAIN ENGLISH</span>
-      <p>Rural Chungbuk is emptying out — empty houses, shrinking population, and disappearing bus
-      routes that all feed each other. TownPulse pulls 19 public datasets across 153 towns, scores
-      each town's survival index from 0 to 100, forecasts where it is heading with 5 ML models, and
-      lets a locally-hosted AI recommend concrete fixes with real budget figures and funding sources.
-      It is a decision tool for local government officials, not a chatbot for residents.</p>
     </div>
 
     <div class="stat-band">
@@ -80,6 +71,26 @@ nav_exclude: true
         도메인마다 파일 11개를 1:1로 맞춘 프랙탈 구조라 AI가 코드를 다루기 쉽고, 경계에서 매퍼가 타입을 걸러
         도메인을 깨끗하게 지킵니다. 어댑터만 갈아 끼우면 충북에서 전국으로 넓힙니다.</p>
       </div>
+    </div>
+  </section>
+
+  <!-- ── 제품 미리보기 ── -->
+  <section class="landing-section">
+    <h2>제품 미리보기</h2>
+    <p class="section-sub">지도에서 마을을 고르면 TVI 점수·QC 분석·AI 처방이 한 화면에서 이어집니다</p>
+    <figure class="shot">
+      <img src="{{ '/assets/img/map-village-select.gif' | relative_url }}" alt="마을 선택 데모 — 지도에서 마을을 선택하면 TVI·QC·AI 컨설팅이 이어지는 흐름">
+      <figcaption>마을 선택 → 실시간 TVI 요약 → QC 진단 → AI 소멸진단 컨설팅</figcaption>
+    </figure>
+    <div class="shot-grid">
+      <figure class="shot">
+        <img src="{{ '/assets/img/map-overview.jpg' | relative_url }}" alt="소멸위험 지도 — 충북 153개 읍·면·동 단계구분도">
+        <figcaption>소멸위험 지도 — 충북 153개 읍·면·동 단계구분도</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="{{ '/assets/img/map-tvi-radar.jpg' | relative_url }}" alt="마을 상세 — TVI 점수와 QC 레이더 차트">
+        <figcaption>마을 상세 — TVI 점수·판정 기준·QC 레이더</figcaption>
+      </figure>
     </div>
   </section>
 
