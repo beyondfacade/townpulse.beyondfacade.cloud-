@@ -1,0 +1,37 @@
+---
+title: 1. 문제 인식 — 소멸의 악순환
+layout: default
+nav_order: 1
+---
+
+# 문제 인식 — 소멸의 악순환
+{: .no_toc }
+
+<div class="eli5" markdown="1">
+<span class="eli5-label">IN PLAIN ENGLISH</span>
+
+Six of Chungbuk's 11 counties are officially designated "population-declining" areas. In these rural towns three problems move together as one chain: empty houses pile up, people leave, and bus routes get cut — each one speeding up the next. Real cases (Danyang's schools with zero new students, Hwacheon losing 551 residents despite record housing subsidies) show that just *measuring* the decline is not enough. And because "vacant house" counts swing wildly by definition (10.4% vs. 2,401 houses), TownPulse cross-checks administrative, energy, statistics, and transaction data to find the real vacancy rate.
+</div>
+
+충청북도는 11개 시군 중 **6곳(제천·보은·옥천·영동·괴산·단양)이 행정안전부 인구감소지역**으로 지정될 만큼 소멸 위기가 심각합니다. 농촌 지역을 중심으로 세 문제가 **하나의 인과관계 사슬**로 동시에 진행됩니다.
+
+```
+빈집 증가
+  → 마을 소멸 가속
+    → 버스 노선 축소
+      → 남은 주민 고립
+        → 더 빠른 소멸 (악순환)
+```
+
+| 문제 | 현황 | 기존 대응의 한계 |
+|---|---|---|
+| **빈집 급증** | 주택총조사 기준 빈집 비율 10.4%(2022, 전국 7.6%) — 부동산원 행정조사는 2,401채로 정의별 편차 큼 | 부서별 수작업, 정의별 수치 상충, 실시간 파악 불가 |
+| **인구 소멸** | 6개 시군 인구감소지역 지정, 153개 읍면동 상당수 소멸위험 진입 | 현황 파악만 가능, 예측·처방 부재 |
+| **교통 공백** | 농촌 버스 노선 지속 감축 | 수요-공급 불일치, 취약계층 이동권 침해 |
+
+**현장 실증 사례 (충북)**
+
+- **단양군** — 3개 초등학교(가곡초 대교분교·보발분교, 영춘초 별방분교) 신입생 **0명**, 학교 유지 자체가 불가능 (CCS충북방송 2026 보도). 산후조리비·AI 돌봄 로봇·공공임대주택 29호 등 적극 대응에도 인구 감소세 지속.
+- **화천군** — 임대료·보증금 90% 감면, 신혼부부 임대주택 공급 등 역대급 주거 지원에도 **전년 대비 551명 감소** (MBC뉴스). → "처방 없는 현황 파악"만으로는 한계 명확.
+
+> **시사점:** 빈집 수치가 통계 정의에 따라 10.4% ↔ 2,401채로 크게 달라진다는 점 자체가, TownPulse가 행정·에너지·통계·실거래를 **교차검증**해 실질 공가율을 산출하는 이유입니다.

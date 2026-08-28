@@ -1,0 +1,16 @@
+// ── TownPulse 커스텀 컬러 스킴 ──
+// 톤앤매너: "행정 데이터 리포트" — 파인 잉크 + 시빅 틸, 넉넉한 화이트 여백.
+// 지자체 담당자·심사위원에게 신뢰감과 분석 역량을 전달하는 것이 목표.
+@import "./color_schemes/light";
+
+$body-background-color: #ffffff;
+$body-heading-color: #10241d;   // 파인 잉크
+$body-text-color: #3a4a45;      // 본문 딥 그린그레이
+$link-color: #0f766e;           // 시빅 틸
+$btn-primary-color: #0d7d6f;
+$nav-child-link-color: #4a5a55;
+$sidebar-color: #f4f8f6;        // 쿨 그린그레이 사이드바
+$base-button-color: #f4f8f6;
+$border-color: #e2e9e5;
+$feedback-color: #eef3f0;
+$search-result-preview-color: #5b6b66;

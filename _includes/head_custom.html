@@ -1,0 +1,26 @@
+<!-- 수식 렌더링: TVI 하이브리드 빈집율 등 $$...$$ 블록용 MathJax -->
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] },
+    options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+  };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+{% if site.data.dev_session.active %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var banner = document.createElement('div');
+  banner.className = 'dev-session-banner';
+  banner.setAttribute('role', 'status');
+  banner.innerHTML =
+    '<span class="dev-session-dot" aria-hidden="true"></span> ' +
+    '현재 개발 중: <strong>{{ site.data.dev_session.developer }}</strong>' +
+    {% if site.data.dev_session.started_at != "" %}
+    ' <span class="dev-session-since">({{ site.data.dev_session.started_at }} 시작)</span>' +
+    {% endif %}
+    '';
+  document.body.insertBefore(banner, document.body.firstChild);
+});
+</script>
+{% endif %}
